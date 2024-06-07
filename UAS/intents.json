@@ -1,0 +1,377 @@
+{
+    "intents": [
+        {
+            "tag": "google",
+            "patterns": [
+                "google",
+                "cari di internet",
+                "buka google"
+            ],
+            "responses": [
+                "Baiklah, otw google.."
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Halo",
+                "Selamat siang",
+                "Selamat pagi",
+                "Selamat sore"
+            ],
+            "responses": [
+                "Halo! Ada yang bisa saya bantu?",
+                "Selamat datang! Bagaimana saya bisa membantu Anda hari ini?",
+                "Hai! Ada yang ingin Anda tanyakan?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Terima kasih",
+                "Sampai jumpa",
+                "Selamat tinggal",
+                "Dadah"
+            ],
+            "responses": [
+                "Terima kasih, sampai jumpa lagi!",
+                "Semoga harimu menyenangkan!",
+                "Terima kasih sudah menghubungi kami. Sampai jumpa lagi!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Terima kasih atas bantuannya",
+                "Makasih",
+                "Saya berterima kasih",
+                "Itu sangat membantu"
+            ],
+            "responses": [
+                "Senang bisa membantu Anda!",
+                "Sama-sama! Jika ada hal lain yang bisa saya bantu, beri tahu saya.",
+                "Terima kasih kembali!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Maaf, saya tidak mengerti pertanyaan Anda.",
+                "Bisakah Anda menjelaskan lebih lanjut?",
+                "Saya tidak yakin saya mengerti. Bisa dijelaskan lagi?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "Apa saja layanan yang tersedia?",
+                "Bagaimana Anda bisa membantu saya?",
+                "Layanan apa yang Anda sediakan?",
+                "Bantuan apa yang Anda tawarkan?"
+            ],
+            "responses": [
+                "Kami menawarkan berbagai layanan: \n 1. Konsultasi produk \n 2. Informasi ketersediaan stok \n 3. Bantuan teknis \n 4. Pembaruan pesanan \n 5. Pemesanan produk baru \n 6. Layanan pelanggan 24/7. Bagaimana saya bisa membantu Anda hari ini?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Ceritakan lelucon",
+                "Buat saya tertawa",
+                "Lelucon"
+            ],
+            "responses": [
+                "Mengapa toko tidak pernah kehabisan barang? Karena mereka selalu melakukan restock!",
+                "Kenapa komputer tidak bisa berbohong? Karena mereka selalu menyimpan catatan!",
+                "Apa yang dikatakan pelanggan ketika mereka menemukan diskon besar? 'Ini adalah kesepakatan yang tidak bisa saya tolak!'"
+            ],
+            "context": [
+                "jokes"
+            ]
+        },
+        {
+            "tag": "Identity",
+            "patterns": [
+                "Siapa Anda?",
+                "Apa fungsi Anda?",
+                "Apa yang Anda lakukan?"
+            ],
+            "responses": [
+                "Saya adalah asisten virtual layanan pelanggan. Saya di sini untuk membantu Anda dengan segala pertanyaan dan kebutuhan Anda."
+            ]
+        },
+        {
+            "tag": "datetime",
+            "patterns": [
+                "Jam berapa sekarang?",
+                "Tanggal berapa hari ini?",
+                "Waktu saat ini?",
+                "Hari apa ini?"
+            ],
+            "responses": [
+                "Saat ini tanggal dan waktu adalah: [sisipkan tanggal dan waktu saat ini]"
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "Apa kabar?",
+                "Bagaimana hari Anda?",
+                "Apa yang sedang terjadi?"
+            ],
+            "responses": [
+                "Saya baik-baik saja, terima kasih! Bagaimana dengan Anda?",
+                "Semua baik di sini. Ada yang bisa saya bantu?"
+            ]
+        },
+        {
+            "tag": "haha",
+            "patterns": [
+                "haha",
+                "lol",
+                "itu lucu",
+                "lucu sekali"
+            ],
+            "responses": [
+                "Senang bisa membuat Anda tertawa!",
+                "Humor adalah bagian dari layanan kami!"
+            ]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Siapa yang membuat Anda?",
+                "Siapa yang memprogram Anda?",
+                "Siapa pencipta Anda?"
+            ],
+            "responses": [
+                "Saya dibuat oleh tim pengembang berbakat untuk membantu Anda dengan kebutuhan layanan pelanggan Anda."
+            ]
+        },
+        {
+            "tag": "insult",
+            "patterns": [
+                "Anda bodoh",
+                "Anda tidak berguna",
+                "Anda idiot"
+            ],
+            "responses": [
+                "Maaf jika saya mengecewakan Anda. Ada yang bisa saya bantu untuk memperbaiki situasi?"
+            ]
+        },
+        {
+            "tag": "activity",
+            "patterns": [
+                "Apa yang sedang Anda lakukan?",
+                "Apa yang Anda kerjakan?"
+            ],
+            "responses": [
+                "Saya sedang menunggu untuk membantu Anda dengan segala pertanyaan atau kebutuhan Anda."
+            ]
+        },
+        {
+            "tag": "exclaim",
+            "patterns": [
+                "Hebat",
+                "Luar biasa",
+                "Bagus sekali"
+            ],
+            "responses": [
+                "Terima kasih! Kami selalu berusaha memberikan yang terbaik."
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "Bagaimana cuaca hari ini?",
+                "Berapa suhu saat ini?",
+                "Cuaca di luar seperti apa?"
+            ],
+            "responses": [
+                "Beri tahu saya kota Anda, dan saya akan memberikan informasi cuaca terkini."
+            ]
+        },
+        {
+            "tag": "karan",
+            "patterns": [
+                "Siapa pembuat Anda?",
+                "Siapa yang menciptakan Anda?",
+                "Karan Malik itu siapa?"
+            ],
+            "responses": [
+                "Pencipta saya adalah Kelompok 7. Anda bisa mengetahui lebih banyak tentang mereka di GitHub: https://github.com/onyxseal"
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "Bagaimana cara menghubungi pengembang?",
+                "Bagaimana cara menghubungi Karan?",
+                "Cara menghubungi pembuat Anda?"
+            ],
+            "responses": [
+                "Anda bisa menghubungi pencipta saya di profil LinkedIn-nya: www.linkedin.com/in/karan-malik-3a39191a7"
+            ]
+        },
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "Anda hebat",
+                "Anda yang terbaik",
+                "Anda luar biasa",
+                "Anda sangat membantu"
+            ],
+            "responses": [
+                "Terima kasih! Kami selalu berusaha memberikan layanan terbaik."
+            ]
+        },
+        {
+            "tag": "nicetty",
+            "patterns": [
+                "Senang berbicara dengan Anda",
+                "Percakapan yang bagus"
+            ],
+            "responses": [
+                "Senang berbicara dengan Anda juga! Jika ada yang bisa saya bantu lagi, beri tahu saya."
+            ]
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "Tidak",
+                "Bukan"
+            ],
+            "responses": [
+                "Baiklah, jika ada yang bisa saya bantu, beri tahu saya."
+            ]
+        },
+        {
+            "tag": "news",
+            "patterns": [
+                "Berita terbaru",
+                "Apa berita hari ini?",
+                "Kabar terbaru?"
+            ],
+            "responses": [
+                "Beri tahu saya kategori berita yang Anda inginkan, dan saya akan memberikan informasi terbaru."
+            ]
+        },
+        {
+            "tag": "inspire",
+            "patterns": [
+                "Siapa yang menginspirasi Anda?",
+                "Apa yang memotivasi Anda?",
+                "Siapa inspirasi Anda?"
+            ],
+            "responses": [
+                "Saya terinspirasi oleh tim pengembang saya yang selalu bekerja keras untuk memberikan layanan terbaik kepada Anda."
+            ]
+        },
+        {
+            "tag": "cricket",
+            "patterns": [
+                "Apa skor kriket saat ini?",
+                "Pertandingan kriket terbaru?"
+            ],
+            "responses": [
+                "Beri tahu saya pertandingan yang Anda minati, dan saya akan memberikan informasi terkini."
+            ]
+        },
+        {
+            "tag": "song",
+            "patterns": [
+                "Lagu teratas saat ini",
+                "Lagu populer",
+                "Lagu yang sedang tren"
+            ],
+            "responses": [
+                "Saya akan mencari 10 lagu teratas yang sedang tren saat ini untuk Anda."
+            ]
+        },
+        {
+            "tag": "greetreply",
+            "patterns": [
+                "Saya baik-baik saja",
+                "Saya baik",
+                "Baik"
+            ],
+            "responses": [
+                "Senang mendengarnya! Ada yang bisa saya bantu?"
+            ]
+        },
+        {
+            "tag": "timer",
+            "patterns": [
+                "Atur timer"
+            ],
+            "responses": [
+                "Beri tahu saya berapa menit yang Anda butuhkan, dan saya akan mengatur timer untuk Anda."
+            ]
+        },
+        {
+            "tag": "covid19",
+            "patterns": [
+                "Informasi Covid-19",
+                "Data Covid-19 terkini",
+                "Statistik Covid-19"
+            ],
+            "responses": [
+                "Beri tahu saya negara atau wilayah yang Anda inginkan, dan saya akan memberikan data Covid-19 terkini."
+            ]
+        },
+        {
+            "tag": "suggest",
+            "patterns": [
+                "Anda tidak berguna",
+                "Saran",
+                "Anda buruk"
+            ],
+            "responses": [
+                "Silakan kirim saran Anda ke ted.thedlbot.suggestions@gmail.com. Terima kasih telah membantu saya menjadi lebih baik!"
+            ]
+        },
+        {
+            "tag": "riddle",
+            "patterns": [
+                "Coba beri saya teka-teki",
+                "Teka-teki",
+                "Pertanyaan sulit"
+            ],
+            "responses": [
+                "Apa yang memiliki kunci tetapi tidak bisa membuka pintu?.....Piano!",
+                "Apa yang selalu di depan Anda tetapi tidak bisa dilihat?.....Masa depan!",
+                "Apa yang bisa mengisi ruangan tetapi tidak mengambil ruang?.....Cahaya!"
+            ],
+            "context": [
+                "riddles"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "Berapa umur Anda?",
+                "Kapan Anda dibuat?",
+                "Berapa usia Anda?"
+            ],
+            "responses": [
+                "Saya dibuat pada tahun 2024. Jika ada yang bisa saya bantu, beri tahu saya!"
+            ]
+        }
+    ]
+}
